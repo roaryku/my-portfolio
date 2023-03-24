@@ -1,0 +1,508 @@
+body{
+    background-color: black;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.navbar-brand{
+    color: #F9F9F9;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.one{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #F9F9F9;
+}
+.one:hover{
+    color: #7F8487;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    
+}
+.name{
+    color: #F9F9F9;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-weight: lighter;
+}
+.part{
+    margin-top: 150px;
+}
+#nav-items{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 100vh;
+}
+#image{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1515339760107-1952b7a08454?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjJ8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 200px;
+}
+#about{
+    text-align: center;
+    margin: 60px;
+    border: 1px solid black;
+    border-radius: 15px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 1;
+}
+h4{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color:  #1B262C; 
+    text-shadow:2px 2px #F9F9F9;
+}
+h6{
+    font-family: 'Montserrat', sans-serif;
+}
+.text{
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 20px;
+    color: #1B262C;
+    
+    opacity: 1;
+}
+.black{
+    font-size: 45px;
+    color: #B33030;
+    font-weight: bolder;
+    text-shadow:1px 0.5px #F9F9F9;
+}
+.btn:hover{
+    background-color: #04b0ee;
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 240px;
+    position: relative;
+    margin: auto;
+    box-shadow: 0 20 px 35px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #1c1b29;
+}
+.btn::before{
+    content: "";
+    background-image: conic-gradient(
+        #04b0ee 40deg,
+        transparent 160deg
+    );
+    height: 130%;
+    width: 150%;
+    position: absolute;
+    left: -20%;
+    top: -20%;
+    animation: rotate 1s infinite linear;
+}
+.btn::after{
+    content: "HIRE ME";
+    height: 94%;
+    width: 94%;
+    position: absolute;
+    background-color: #1c1b29;
+    border-radius: 5px;
+    top: 3%;
+    left: 3%;
+    color: #3AB0FF;
+    display: grid;
+    place-items: center;
+    letter-spacing: 8px;
+    font-size: 20px;
+    }
+.btn .mail{
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    opacity: 0;
+}
+.download:hover{
+    width: 350px;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 370px;
+    position: relative;
+    margin: auto;
+    box-shadow: 0 20 px 35px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #1c1b29;
+    border: none;
+}
+.download::before{
+    content: "";
+    background-image: conic-gradient(
+        #04b0ee 40deg,
+        transparent 160deg
+    );
+    height: 130%;
+    width: 150%;
+    position: absolute;
+    left: -20%;
+    top: -20%;
+    animation: rotate 1s infinite linear;
+}
+.download::after{
+    content: "DOWNLOAD MY RESUME";
+    height: 94%;
+    width: 94%;
+    position: absolute;
+    background-color: #1c1b29;
+    border-radius: 5px;
+    top: 3%;
+    left: 3%;
+    color: #3AB0FF;
+    display: grid;
+    place-items: center;
+    letter-spacing: 8px;
+    font-size: 15px;
+    }
+.download .resume{
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    opacity: 0;
+}
+@keyframes rotate{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.button{
+    margin-top: 60px;
+}
+.buttonTwo{
+    margin-top: 40px;
+}
+.mail:hover{
+    color: #3AB0FF;
+    
+}
+.mail{
+    color: #3AB0FF;
+    text-decoration: none;
+    font-size: 25px;
+}
+.resume{
+    color: #3AB0FF;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+.resume:hover{
+    color: #3AB0FF;
+}
+#projects{
+    background-image: url(https://images.unsplash.com/photo-1515339760107-1952b7a08454?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjJ8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3A3845;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin-top: 40px;
+    
+}
+.skills, .skillsTwo{
+    color: #1B262C;
+    text-shadow:1px 2px #B33030;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+.skills:hover{
+    color: #F9F9F9;
+}
+.even{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.picture{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.link{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.mySkills { 
+    
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 40px; 
+}
+.skills-inline{ 
+    padding-bottom: 50px;
+    
+    color: #F9F9F9;
+    text-shadow:1px 2px #B33030;
+}
+.logo-block { 
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+.carousel {
+    display: flex;
+    justify-content:space-around;
+    gap: .7em;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.carousel--item {
+    border-radius: .4em;
+    background-position: center;
+    background-size: cover;
+    transition: 300ms ease;
+    height: 250px;
+    width: 250px;
+    font-weight:bold;
+    text-decoration:double;
+}
+.carousel--item:hover {
+    opacity: 0.50;
+    transform: scale(1.01);
+    transform-origin: bottom;
+    color: #130F40;
+    
+}
+.seven {
+    background-image: url('https://images.unsplash.com/photo-1651310360513-ac9a7df27b12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODR8fHN0YWlyY2FzZXxlbnwwfHwyfHw%3D&auto=format&fit=crop&w=800&q=60');
+}
+.two {
+    background-image: url('https://images.unsplash.com/photo-1640724063715-b0e9316c9639?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hc3NhZ2UlMjAlMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+}
+.three {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQls-lTSoJcmTuuNzgkZ7QH8W3v-mZuQ7g_Zg&usqp=CAU');
+}
+.four {
+    background-image: url('https://cdn.glitch.global/71580391-18c0-4bfb-9834-19e154052412/weh.jpeg?v=1653238279317');
+}
+.five{
+    background-image: url('https://img.freepik.com/free-vector/merry-christmas-happy-new-year-background-shimmering-golden-particles-dark-background-abstract-holiday-background_145391-938.jpg?size=626&ext=jpg&uid=R77256161&ga=GA1.2.1980146770.1677003073&semt=ais');
+}
+.eight{
+    background-image: url('https://cdn.glitch.global/71580391-18c0-4bfb-9834-19e154052412/bank.jpg?v=1653238269583');
+}
+.nine{
+    background-image: url('https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGNvbXB1dGVyJTIwZ2FtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
+}
+.ten{
+    background-image: url('https://i.scdn.co/image/ab67616d0000b2735c2b00f55edeb567deb2a181');
+}
+.eleven{
+    background-image: url('https://images.unsplash.com/photo-1529310399831-ed472b81d589?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGluc3BpcmF0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+}
+.twelve{
+    background-image: url('https://images.unsplash.com/photo-1587246574281-a18662326873?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fHJlY2lwZSUyMGJvb2tzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+}
+.fifteen{
+    background-image: url('https://images.unsplash.com/photo-1623348282113-50395974159c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
+}
+.fourteen{
+    background-image: url('https://images.unsplash.com/photo-1447078806655-40579c2520d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+}
+.sixteen{
+    background-image: url('https://images.unsplash.com/photo-1505201997457-3c2e6f6c4910?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWVtYWRlJTIwYnJlYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
+}
+.seventeen{
+    background-image: url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fENvZmZlZSUyMHNob3B8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
+}
+.eighteen{
+    background-image: url('https://images.unsplash.com/photo-1502160348486-995f41fa55b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fHN0b3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+}
+.nineteen{
+    background-image: url('https://img.freepik.com/free-photo/3d-rendering-futuristic-sci-fi-techno-lights-cool-background_181624-21208.jpg?size=626&ext=jpg&uid=R77256161&ga=GA1.2.1980146770.1677003073&semt=sph');
+}
+.car{
+    text-decoration: none;
+    color: #3ab0ff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    opacity: 0;
+}
+.car:hover{
+    color: #FFEEEE ;
+    opacity: 1;
+}
+
+a{
+    text-decoration: none;
+    color: #15133C;
+    font-family: 'Libre Baskerville', serif;
+}
+.certificates{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+#slide{
+    width: 600px;
+    margin-bottom: 40px;
+}
+.btn-back, .btn-next{
+    background-color: black;
+    color: #F9F9F9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border: none;
+}
+.btn-back:hover, .btn-next:hover{
+    color: #3ab0ff;
+}
+#skillsMy{
+    background-color: black;
+}
+.main{
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #F9F9F9;
+    text-shadow:2px 2px #B33030;
+}
+#contact{
+    margin: 0;
+}
+.mail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+.color{
+    color: #3A3845;
+    padding: 10px;
+    margin-top: 15px;
+}
+.color:hover{
+    color: #3ab0ff;
+    
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 10px;
+}
+.button-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: rgba(0, 0, 0, 0); ;
+    border: none;
+    padding: 8px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: rgba(0, 0, 0, 0); ;
+    margin-top: 40px;
+}
+.button-one:hover{
+    padding: 15px;
+}
+.name-work {
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    counter-reset:rgba(0, 0, 0, 0); ;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+}
+
+hr{
+    font-size: 9px;
+    color: #B33030;
+}
+#next, #back{
+    color:#e7e5e6;
+}
+#next:hover{
+    color: #3ab0ff;
+}
+#back:hover{
+    color: #3ab0ff;
+}
+@media all and ( max-width: 800px){
+    .text{
+        font-size: 15px;
+    }
+}
+
+@media all and ( max-width: 800px){
+    .name{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h6{
+        font-size: 13px;
+    }
+    .text{
+        font-size: 10px;
+    }
+    #slide{
+        width: 300px;
+    }
+    .btn-back, .btn-next{
+        font-size: 10px;
+    }
+    .main{
+        font-size: 20px;
+    }
+}
+
+
+
+
