@@ -93,7 +93,7 @@ h6{
     text-shadow:1px 0.5px #F9F9F9;
 }
 .btn:hover{
-    background-color: #04b0ee;
+    background-color: #f9f9f9;
     
 }
 .btn{
@@ -103,7 +103,7 @@ h6{
     width: 240px;
     position: relative;
     margin: auto;
-    box-shadow: 0 20 px 35px rgba(0,0,0,0.3);
+    box-shadow: 0 10 px 15px rgba(0,0,0,0.3);
     border-radius: 5px;
     overflow: hidden;
     background-color: #1c1b29;
@@ -111,7 +111,7 @@ h6{
 .btn::before{
     content: "";
     background-image: conic-gradient(
-        #04b0ee 40deg,
+        #f9f9f9 40deg,
         transparent 160deg
     );
     height: 130%;
@@ -130,7 +130,7 @@ h6{
     border-radius: 5px;
     top: 3%;
     left: 3%;
-    color: #3AB0FF;
+    color: #f9f9f9;
     display: grid;
     place-items: center;
     letter-spacing: 8px;
@@ -161,7 +161,7 @@ h6{
 .download::before{
     content: "";
     background-image: conic-gradient(
-        #04b0ee 40deg,
+        #f9f9f9 40deg,
         transparent 160deg
     );
     height: 130%;
@@ -180,7 +180,7 @@ h6{
     border-radius: 5px;
     top: 3%;
     left: 3%;
-    color: #3AB0FF;
+    color: #f9f9f9;
     display: grid;
     place-items: center;
     letter-spacing: 8px;
@@ -204,11 +204,11 @@ h6{
     margin-top: 40px;
 }
 .mail:hover{
-    color: #3AB0FF;
+    color: #f9f9f9;
     
 }
 .mail{
-    color: #3AB0FF;
+    color:#f9f9f9;
     text-decoration: none;
     font-size: 25px;
 }
