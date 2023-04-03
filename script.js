@@ -1,9 +1,3 @@
-
-
-
-
-
-
 /* ---- slides - certificates ---- */
 
 const back = document.querySelector('#back');
@@ -42,7 +36,7 @@ back.addEventListener("click", () => {
 
   gsap.from(".btn", {x: 900, delay: 3.5, duration: 2.5, ease: "power1.out",  stagger: 1})
 
-  gsap.from(".download", {x: 900, delay: 3, duration: 3.5, ease: "power1.out",  stagger: 1})
+  gsap.from(".buttonTwo", {x: -900, delay: 3, duration: 4, ease: "power1.out", stagger: 1})
 
   gsap.from(".black", {x: -1100, duration: 3.5, delay: 3,  ease: "power1.out",  stagger: 1})
 
@@ -54,6 +48,7 @@ back.addEventListener("click", () => {
 
   gsap.from(".text", {y: -300, delay: 3, duration: 2, ease: "potwer1.inOut", stagger: 1, opacity: 0,})
 
+  
 
   gsap.to(".black", {
     

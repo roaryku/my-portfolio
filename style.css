@@ -235,7 +235,11 @@ h6{
     justify-content: center; 
     flex-wrap: wrap; 
 }
-.carousel {
+.par-card{
+    margin-top: 40px;
+}
+
+.container{
     display: flex;
     justify-content:space-around;
     gap: .7em;
@@ -243,84 +247,54 @@ h6{
     flex-direction: row;
     margin-top: 50px;
 }
-.carousel--item {
-    border-radius: .4em;
-    background-position: center;
-    background-size: cover;
-    transition: 300ms ease;
-    height: 250px;
-    width: 250px;
-    font-weight:bold;
-    text-decoration:double;
-}
-.carousel--item:hover {
-    opacity: 0.50;
-    transform: scale(1.01);
-    transform-origin: bottom;
-    color: #130F40;
-    
-}
-.seven {
-    background-image: url('https://images.unsplash.com/photo-1651310360513-ac9a7df27b12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODR8fHN0YWlyY2FzZXxlbnwwfHwyfHw%3D&auto=format&fit=crop&w=800&q=60');
-}
-.two {
-    background-image: url('https://images.unsplash.com/photo-1640724063715-b0e9316c9639?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hc3NhZ2UlMjAlMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
-}
-.three {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQls-lTSoJcmTuuNzgkZ7QH8W3v-mZuQ7g_Zg&usqp=CAU');
-}
-.four {
-    background-image: url('https://cdn.glitch.global/71580391-18c0-4bfb-9834-19e154052412/weh.jpeg?v=1653238279317');
-}
-.five{
-    background-image: url('https://img.freepik.com/free-vector/merry-christmas-happy-new-year-background-shimmering-golden-particles-dark-background-abstract-holiday-background_145391-938.jpg?size=626&ext=jpg&uid=R77256161&ga=GA1.2.1980146770.1677003073&semt=ais');
-}
-.eight{
-    background-image: url('https://cdn.glitch.global/71580391-18c0-4bfb-9834-19e154052412/bank.jpg?v=1653238269583');
-}
-.nine{
-    background-image: url('https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGNvbXB1dGVyJTIwZ2FtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
-}
-.ten{
-    background-image: url('https://i.scdn.co/image/ab67616d0000b2735c2b00f55edeb567deb2a181');
-}
-.eleven{
-    background-image: url('https://images.unsplash.com/photo-1529310399831-ed472b81d589?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGluc3BpcmF0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
-}
-.twelve{
-    background-image: url('https://images.unsplash.com/photo-1587246574281-a18662326873?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fHJlY2lwZSUyMGJvb2tzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
-}
-.fifteen{
-    background-image: url('https://images.unsplash.com/photo-1623348282113-50395974159c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
-}
-.fourteen{
-    background-image: url('https://images.unsplash.com/photo-1447078806655-40579c2520d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
-}
-.sixteen{
-    background-image: url('https://images.unsplash.com/photo-1505201997457-3c2e6f6c4910?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWVtYWRlJTIwYnJlYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
-}
-.seventeen{
-    background-image: url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fENvZmZlZSUyMHNob3B8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
-}
-.eighteen{
-    background-image: url('https://images.unsplash.com/photo-1502160348486-995f41fa55b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fHN0b3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
-}
-.nineteen{
-    background-image: url('https://img.freepik.com/free-photo/3d-rendering-futuristic-sci-fi-techno-lights-cool-background_181624-21208.jpg?size=626&ext=jpg&uid=R77256161&ga=GA1.2.1980146770.1677003073&semt=sph');
-}
 .car{
     text-decoration: none;
-    color: #3ab0ff;
+    color:#a4915c;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 30px;
-    opacity: 0;
+    font-size: 27px;
 }
 .car:hover{
-    color: #FFEEEE ;
-    opacity: 1;
+    color: #cec6c4;
 }
-
+.card-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px; 
+}
+.flip-card {
+    background-color: #a4915c;
+    width: 250px;
+    height: 250px;
+    perspective: 1000px;
+    border-radius: 5px;  
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border-radius: 5px; 
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: 5px; 
+}
+.flip-card-back {
+    background-color: #1c1b29;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 5px; 
+}
 a{
     text-decoration: none;
     color: #15133C;
