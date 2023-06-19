@@ -3,7 +3,7 @@
 const back = document.querySelector('#back');
 const next = document.querySelector('#next');
 
-const photos = ["react-redux.png", "js_certificate.jpg", "certificate.jpg", "bootstrap.jpg", "GSAP_FIGMA .jpg"];
+const photos = ["fullstack.png", "js_certificate.jpg", "bootstrap.jpg", "GSAP_FIGMA .jpg"];
 
 let i = 0;
 
@@ -52,7 +52,7 @@ back.addEventListener("click", () => {
 
   gsap.to(".black", {
     
-    text: "FRONT-END DEVELOPER",
+    text: "FULL STACK WEB DEVELOPER",
     duration: 4, repeat: -1, repeatDelay: 2, ease: "none", yoyo: true, delay: 3
   })
 
