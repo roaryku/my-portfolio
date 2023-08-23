@@ -52,7 +52,7 @@ back.addEventListener("click", () => {
 
   gsap.to(".black", {
     
-    text: "FULL STACK WEB DEVELOPER",
+    text: "FRONTEND WEB DEVELOPER",
     duration: 4, repeat: -1, repeatDelay: 2, ease: "none", yoyo: true, delay: 3
   })
 
