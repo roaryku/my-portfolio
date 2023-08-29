@@ -342,7 +342,14 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 10px;
+    
+}
+.colorSecond{
+    margin-top: 15px; 
+    color: #3A3845;
+}
+.colorSecond:hover{
+    color: #3ab0ff;
 }
 .color{
     color: #3A3845;
@@ -351,7 +358,6 @@ a{
 }
 .color:hover{
     color: #3ab0ff;
-    
 }
 #footer{
     display: flex;
