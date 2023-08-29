@@ -60,6 +60,10 @@ back.addEventListener("click", () => {
     y: 100, duration: 1.7, delay: 3.5, ease: "power1.out", stagger: 1, opacity: 0
   })
 
+  gsap.from(".colorSecond", {
+    y: 100, duration: 1.7, delay: 5.5, ease: "power1.out", stagger: 1, opacity: 0
+  })
+
   gsap.from(".button-one", {
     x: 20, rotation: 360, duration: 2, ease: "power1.out", stagger: 1, opacity: 0, repeat: 15, repeatDelay: 5
   })
@@ -179,7 +183,6 @@ back.addEventListener("click", () => {
     },
     "retina_detect": true
   });
- 
 
 
 
