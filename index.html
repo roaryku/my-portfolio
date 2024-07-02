@@ -1,92 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>My portfolio</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-      <link rel="stylesheet" href="style.css">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,500&display=swap" rel="stylesheet">
-   </head>
-   <body>
-      <!--- NAVBAR --->
-      <nav class="navbar navbar-expand-sm navbar-dark bg-black border-bottom" aria-label="Third navbar example">
-         <div class="container-fluid">
-            <a class="navbar-brand">PORTFOLIO</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse justify-content-end collapse show" id="navbarsExample03">
-               <ul class="navbar-nav mb-2 mb-sm-3">
-                  <li class="nav-item">
-                     <a class="one nav-link" id="myColor" aria-current="page" href="#">HOME</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="one nav-link" href="#aboutMe">ABOUT</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="one nav-link" href="#projects">PROJECTS</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="one nav-link" href="#skills">SKILLS</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="one nav-link" href="#certificate">CERTIFICATES</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="one nav-link" href="#contact">CONTACT</a>
-                  </li>
-               </ul>
-            </div>
-      </nav>
-      <div id="particles-js"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A place for people to develop their projects</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
-      <!--- HOME --->
-      <div id="header">
-      <h1 class="name part">HELLO</h1>
-      <h2 class="name red">MY NAME IS RODIKA</h2>
-      <h3 class="name black">I AM A WEB DEVELOTER</h3>
-      </div>
-      <div class="button">
-      <button class="btn" >
-      <a class="mail" href="mailto:rodikaaryku13@gmail.com"target="_blank">HIRE ME</a>
-      </button>
-      </div> 
-      <section id="aboutMe">
-      <div id="image">
-      <div id="about">
-      <h4 class="heding-projects">ABOUT ME</h4>
-      <p class="text">Hello! My name is Rodika! I am a Web developer with experience in JavaScript,Reactjs, Reduxjs and Node.js, but my skills are not limited to these. After graduated CanSheCode school I got enrolled in Dev Education School as UX/UI designer. I'm also expert in HTML, CSS, Bootstrap and Figma. Beside this skills I'm expert in MongoDb, API, AJAX, GIT and GitHub...  Being a curious developer, I'm constantly expanding my skill set and learning something new.</p>
-      </div>
-      </section>
-      <!--- RESUME --->
-      <div class="buttonTwo">
-          <a class="resume" href="Rodika's Resume 2023.pdf" target="_blank">DOWNLOAD MY RESUME</a>
-      </div>
-      <!--- PROJECTS --->
-      <section id="projects">
-      <div class="project image">
-      <h4 class="heding-projects"> MY PROJECTS</h4>
-      </div>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- LOGO - SCREEN -->
+    <section id="logo">
+        <header class="container-logo">
+                <div class="logo-header">
+                    <img class="logo-image-header" src="photo/name tag.png" alt="logo">
+                    <h1>FRONT-END DEVELOPER PORTFOLIO</h1>
+                    <p class="par">Modern & Creative</p>
+      
+                    <div class="butoons">
+                      <button class="cta">#JSdeveloper</button>
+                      <button class="cta">#React/Redux</button>
+                      <button class="cta">#ux/ui, #figma</button>
+                      <button class="cta">#html/css</button>
+                    </div>
 
-
-      <div class="container">
-
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <img class="card-image" src="https://st3.depositphotos.com/8509220/14913/i/600/depositphotos_149138513-stock-photo-checking-mark-on-checklist.jpg" alt="Check-list">
+                <div class="header_btn">
+                    <button class="btnMail" >
+                        <a class="myPortfolio" href="#home">See My Portfolio</button></a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+          <!--- NAVBAR HEADER--->
     
-                <div class="flip-card-back">
-                    <a class="car" href="https://my-daily-check-list.netlify.app/" target="_blank" alt="Check-list">
-                            <h5 class="par-card">Daily Check-list App</h5>
-                            <p class="par-card">Node.js, React Project</p>
+        <header>
+          <nav class="navbar navbar-expand-sm navbar-dark container-header" aria-label="Third navbar example">
+            <div class="container-fluid">
+               <!-- <a class="navbar-brand">PORTFOLIO</a> -->
+               <img class="image-two navbar-brand" src="photo/name tag.png" alt="logo">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="true" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="navbar-collapse justify-content-end collapse show" id="navbarsExample03">
+                  <ul class="navbar-nav mb-2 mb-sm-3 ul">
+                     <li class="nav-item">
+                        <a class="menu nav-link" id="myColor" aria-current="page" href="#logo">HOME</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="menu nav-link" href="#about">ABOUT</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="menu nav-link" href="#projects">PROJECTS</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="menu nav-link" href="#skills">SKILLS</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="menu nav-link" href="#certificates">CERTIFICATES</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="menu nav-link" href="#contact">CONTACT</a>
+                     </li>
+                  </ul>
+               </div>
+         </nav>
+    </header>
+
+    <main>
+    <section id="home">
+        <div class="transparent">
+            <div  id="container">
+                <div class="paragraph">
+                <h3 class="par-hello">Hello,</h3>
+                <h2 class="name">I'm Rodika Aryku</h2>
+                <p class="frontend">A Passionate 
+                    <img class="open-tag" src="photo/open tag.png" alt="open" width="15px">
+                        <span>Frontend Web Developer</span> 
+                    <img src="photo/tag_2.png" alt="open" width="20px">     
+                </p> 
+                <p class="frontend">with 3 years experience creating users friendly websites</p>
+             <div>
+                <button class="btnMail">
+                    <a class="myPortfolio" href="myResume.pdf" target="_blank">See My Resume</button></a>
+             </div>
+            </div>
+        
+            <div  id="container">
+              <div id="comp">
+                 <img class="comp" src="photo/computer.png" alt="computer" width="300">
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--ABOUT ME-->
+    <section id="about">
+        <div class="container-about">
+            <h2 class="about">About me</h2>
+            <div class="text-about">
+                <p class="frontend">
+                    <span>Frontend developer</span>
+                    with 3 years of <br> experience in helping people create and <br> maintain a better code base for reusability. <br> Using programming languages like HTML, <br> CSS, JavaScript,and React/Redux/Node, <br> or frameworks like Werdpress, <br> to determine and develop <br> the visual concept and functionality of <br> visual elements in a website.
+                </p>
+                <div class="image-about-one">
+                <img class="image-about-one" src="photo/image 10.png" alt="computer" width="200px" height="190px">
+            </div>
+        </div>
+            <div class="text-about-reverse">
+                <p class="frontend design">
+                    <span>UX/UI Designer</span>
+                    with experience in <br>  creating user centered design solutions <br> that delight business and solve user needs.<br> Passionate about design and <br> development with a desire to apply <br> skills forward facilitating projects from <br> design to lunch including <br><span>Project Management </span>skills.
+                </p>
+                <div class="image-about-two">
+                <img class="image-about image-about-two" src="photo/image 9.png" alt="computer" width="200px" height="180px">
+            </div>
+        </div>
+    
+            <div class="centered">
+                <h4 class="idea-of-project">Have an idea or project you’d like to discuss? Feel free to contact me</h4>
+                <a href="mailto:rodikaaryku13@gmail.com" target="_blank">
+                    <button class="btnMail">Contact me</button></a>
+            </div>
+        </div>
+     </section>
+
+     <!-- MY PROJECTS-->
+
+     <section id="projects">
+        <h2 class="about">My Projects</h2>
+        <p class="par-four">Click on the picture to read description and see the project</p>
+        <div id="header-projects">
+
+            <div  class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                       <img class="card-image" src="projects_photo/node-checklist.png" alt="weather">
+                    </div>
+
+                    <div class="flip-card-back">
+                        <a class="linkToProject" href="https://my-daily-check-list.netlify.app/" target="_blank" alt="weather">
+                            <h4 class="proj-four">Daily Check List</h4>
+                            <p class="proj-four"> Node / React web app</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div  class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                       <img class="card-image" src="projects_photo/recipe-mocap.png" alt="weather">
+                    </div>
+
+                    <div class="flip-card-back">
+                        <a class="linkToProject" href="https://api-recipes-rod.netlify.app/" target="_blank" alt="weather">
+                            <h4 class="proj-four">Recipes</h4>
+                            <p class="proj-four">React API web app</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div  class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                       <img class="card-image" src="projects_photo/home-plan.png" alt="weather">
+                    </div>
+
+                    <div class="flip-card-back">
+                        <a class="linkToProject" href="https://myrod-planner.netlify.app/" target="_blank" alt="weather">
+                            <h4 class="proj-four">Weekly Planner</h4>
+                            <p class="proj-four">React web app</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div  class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                       <img class="card-image" src="projects_photo/list-combo.png" alt="grocery list">
+                    </div>
+
+                    <div class="flip-card-back">
+                        <a class="linkToProject" href="https://24-grocery-list.netlify.app/" target="_blank" alt="grocery list">
+                            <h4 class="proj-four">Grocery List</h4>
+                            <p class="proj-four">React Web app</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div  class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                       <img class="card-image" src="projects_photo/coffee.png" alt="weather">
+                    </div>
+
+                    <div class="flip-card-back">
+                        <a class="linkToProject" href="https://shopfor-coffee.netlify.app/" target="_blank" alt="weather">
+                            <h4 class="proj-four">Coffee Shop</h4>
+                            <p class="proj-four">React web app</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        <div  class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                       <img class="card-image" src="projects_photo/wather_app Mockup.png" alt="weather">
+                    </div>
+
+                    <div class="flip-card-back">
+                        <a class="linkToProject" href="https://2023-weather.netlify.app/" target="_blank" alt="weather">
+                            <h4 class="proj-four">Weather</h4>
+                            <p class="proj-four">JavaScript Web app</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div  class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                       <img class="card-image" src="projects_photo/relax.png" alt="relax">
+                    </div>
+
+                    <div class="flip-card-back">
+                        <a class="linkToProject" href="https://timer-relax-app.netlify.app/" target="_blank" alt="relax">
+                            <h4 class="proj-four">Relax</h4>
+                            <p class="proj-four">JavaScript Web app</p>
                         </a>
                     </div>
                 </div>
@@ -95,397 +249,341 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img class="card-image" src="https://img.freepik.com/free-photo/elevated-view-parsley-bell-pepper-tomato-lettuce-garlic-cloves-eating-utensils-black-surface_23-2147944237.jpg?size=626&ext=jpg&uid=R104806368&ga=GA1.2.58188988.1684967531&semt=ais" alt="Check-list">
+                        <img class="card-image" src="projects_photo/quiz3.png" alt="quiz">
                     </div>
         
                     <div class="flip-card-back">
-                        <a class="car" href="https://meal-plan-node.netlify.app/" target="_blank" alt="meal-plan">
-                                <h5 class="par-card">Meal Plan App</h5>
-                                <p class="par-card">Node.js, React Project</p>
+                        <a class="linkToProject" href="https://myjs-quiz.netlify.app/" target="_blank" alt="QUIZ">
+                                <h4 class="proj-four">JS Quiz</h4>
+                                <p class="proj-four">JavaScript web app</p>
                             </a>
                         </div>
                     </div>
                 </div>
 
-          <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://images.unsplash.com/photo-1447078806655-40579c2520d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="food-delivered">
-                 </div>
-     
-                 <div class="flip-card-back">
-                     <a class="car" href="https://my-restaurant-redux.netlify.app/" target="_blank" alt="Food">
-                             <h5 class="par-card">Restaurant</h5>
-                             <p class="par-card">React, Redux Project</p>
-                         </a>
-                     </div>
-                 </div>
-             </div>
-     
-         <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://images.unsplash.com/photo-1505201997457-3c2e6f6c4910?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWVtYWRlJTIwYnJlYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="bread recipes">
-                 </div>
-         
-                 <div class="flip-card-back">
-                     <a class="car" href="https://find-bread-recipes.netlify.app/" target="_blank" alt="bread recipes">
-                             <h5 class="par-card">Bread Resipes</h5>
-                             <p class="par-card">React Project</p>
-                         </a>
-                     </div>
-                 </div>
-             </div>
-     
-         <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fENvZmZlZSUyMHNob3B8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="coffee">
-                 </div>
-             
-                 <div class="flip-card-back">
-                     <a class="car" href="https://shopfor-coffee.netlify.app/" target="_blank" alt="coffee">
-                         <h5 class="par-card">Coffee Shop</h5>
-                         <p class="par-card">React Project</p>
-                     </a>
-                 </div>
-             </div>
-         </div>
-             
-         <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://images.unsplash.com/photo-1502160348486-995f41fa55b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTd8fHN0b3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="store">
-                 </div>
-                 
-                 <div class="flip-card-back">
-                     <a class="car" href="https://my-shopping-store.netlify.app/" target="_blank" alt="store">
-                         <h5 class="par-card">Store</h5>
-                         <p class="par-card">React Project</p>
-                     </a>
-                 </div>
-             </div>
-         </div>
-     
-         <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://images.unsplash.com/photo-1651310360513-ac9a7df27b12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODR8fHN0YWlyY2FzZXxlbnwwfHwyfHw%3D&auto=format&fit=crop&w=800&q=60" alt="custum stairnose">
-                 </div>
-     
-                 <div class="flip-card-back">
-                     <a class="car" href="https://custum-stairn-nose.netlify.app/" target="_blank" alt="custum stairnose">
-                         <h5 class="par-card">Custum Stairnoses</h5>
-                         <p class="par-card">JS Bootstrap HTML Project</p>
-                     </a>
-                 </div>
-             </div>
-         </div>
-     
-         <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://img.freepik.com/free-photo/3d-rendering-futuristic-sci-fi-techno-lights-cool-background_181624-21208.jpg?size=626&ext=jpg&uid=R77256161&ga=GA1.2.1980146770.1677003073&semt=sph" alt="HOBBY">
-                 </div>
-         
-                 <div class="flip-card-back">
-                     <a class="car" href="https://my-hobbies-slides.glitch.me/" target="_blank" alt="hobby">
-                         <h5 class="par-card">Hobby</h5>
-                         <p class="par-card">JS Project</p>
-                     </a>
-                 </div>
-             </div>
-         </div>
-     
-         <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQls-lTSoJcmTuuNzgkZ7QH8W3v-mZuQ7g_Zg&usqp=CAU" alt="christmas">
-                 </div>
-             
-                 <div class="flip-card-back">
-                     <a class="car" href="https://christmas-countdown-myapp.netlify.app/" target="_blank" alt="christmas">
-                         <h5 class="par-card">How many days until Christmas?</h5>
-                         <p class="par-card">JS Project</p>
-                     </a>
-                 </div>
-             </div>
-         </div>
-             
-         <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://img.freepik.com/free-vector/merry-christmas-happy-new-year-background-shimmering-golden-particles-dark-background-abstract-holiday-background_145391-938.jpg?size=626&ext=jpg&uid=R77256161&ga=GA1.2.1980146770.1677003073&semt=ais" alt="store">
-                 </div>
-                 
-                 <div class="flip-card-back">
-                     <a class="car" href="https://christmas-snow-slides.glitch.me/" target="_blank" alt="slide">
-                         <h5 class="par-card">Christmas Slides</h5>
-                         <p class="par-card">JS Project</p>
-                     </a>
-                 </div>
-             </div>
-         </div>
-     
-         <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://cdn.glitch.global/71580391-18c0-4bfb-9834-19e154052412/weh.jpeg?v=1653238279317" alt="wheather">
-                 </div>
-     
-                 <div class="flip-card-back">
-                     <a class="car" href="https://rod-weather-app.netlify.app/" target="_blank" alt="wheather">
-                             <h5 class="par-card">wheather</h5>
-                             <p class="par-card">JavaScript Project</p>
-                         </a>
-                     </div>
-                 </div>
-             </div>
-     
-         <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://cdn.glitch.global/71580391-18c0-4bfb-9834-19e154052412/bank.jpg?v=1653238269583" alt="bread recipes">
-                 </div>
-         
-                 <div class="flip-card-back">
-                     <a class="car" href="https://bill-dividing-app.netlify.app/" target="_blank" alt="Dividing bills">
-                             <h5 class="par-card">Dividing Bills</h5>
-                             <p class="par-card">JavaScript Project</p>
-                         </a>
-                     </div>
-                 </div>
-             </div>
-     
-         <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGNvbXB1dGVyJTIwZ2FtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="game">
-                 </div>
-             
-                 <div class="flip-card-back">
-                     <a class="car" href="https://you-or-comp-game.glitch.me" target="_blank" alt="game">
-                         <h5 class="par-card">Computer Game</h5>
-                         <p class="par-card">JavaScript Project</p>
-                     </a>
-                 </div>
-             </div>
-         </div>
-             
-         <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://i.scdn.co/image/ab67616d0000b2735c2b00f55edeb567deb2a181" alt="store">
-                 </div>
-                 
-                 <div class="flip-card-back">
-                     <a class="car" href="https://store-opening.netlify.app/" target="_blank" alt="store">
-                         <h5 class="par-card">Countdown to store opening</h5>
-                         <p class="par-card">JavaScript Project</p>
-                     </a>
-                 </div>
-             </div>
-         </div>
-     
-         <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://images.unsplash.com/photo-1529310399831-ed472b81d589?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGluc3BpcmF0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="quates">
-                 </div>
-     
-                 <div class="flip-card-back">
-                     <a class="car" href="https://inspiration-quates.glitch.me" target="_blank" alt="custum stairnose">
-                         <h5 class="par-card">Quates</h5>
-                         <p class="par-card">JavaScript Project</p>
-                     </a>
-                 </div>
-             </div>
-         </div>
-     
-         <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://images.unsplash.com/photo-1587246574281-a18662326873?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fHJlY2lwZSUyMGJvb2tzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="HOBBY">
-                 </div>
-         
-                 <div class="flip-card-back">
-                     <a class="car" href="https://recipes-search-app.glitch.me" target="_blank" alt="recipes">
-                         <h5 class="par-card">Recipes</h5>
-                         <p class="par-card">JS Project</p>
-                     </a>
-                 </div>
-             </div>
-         </div>
-     
-         <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://images.unsplash.com/photo-1623348282113-50395974159c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="photo">
-                 </div>
-             
-                 <div class="flip-card-back">
-                     <a class="car" href="https://photography-events-wed.glitch.me" target="_blank" alt="photograph">
-                         <h5 class="par-card">Photograph</h5>
-                         <p class="par-card">Bootstrap Project</p>
-                     </a>
-                 </div>
-             </div>
-         </div>
-             
-         <div class="flip-card">
-             <div class="flip-card-inner">
-                 <div class="flip-card-front">
-                     <img class="card-image" src="https://images.unsplash.com/photo-1640724063715-b0e9316c9639?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hc3NhZ2UlMjAlMjBkYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="massage">
-                 </div>
-                 
-                 <div class="flip-card-back">
-                     <a class="car" href="https://sunflower-massage-spa.glitch.me" target="_blank" alt="slide">
-                         <h5 class="par-card">Massage Website</h5>
-                         <p class="par-card">HTML/CSS Project</p>
-                     </a>
-                 </div>
-             </div>
-         </div>
-     </div>
+            
+        <div  class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                   <img class="card-image" src="projects_photo/book.png" alt="photo">
+                </div>
+
+                <div class="flip-card-back">
+                    <a class="linkToProject" href="https://myfavoritebooks-library.netlify.app/" target="_blank"  alt="library">
+                        <h4 class="proj-four">Online Library</h4>
+                        <p class="proj-four">JavaScript Web app</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div  class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                   <img class="card-image" src="projects_photo/countdown.png" target="_blank" alt="christmas">
+                </div>
+
+                <div class="flip-card-back">
+                    <a class="linkToProject" href="https://countdown-apps.netlify.app/" alt="christmas countdown">
+                        <h4 class="proj-four">Favorite dates countdown</h4>
+                        <p class="proj-four">JavaScript Web app</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div  class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                   <img class="card-image" src="projects_photo/list.png" target="_blank" alt="christmas">
+                </div>
+
+                <div class="flip-card-back">
+                    <a class="linkToProject" href="https://find-your-task.netlify.app/" alt="christmas countdown">
+                        <h4 class="proj-four">Find your today's task</h4>
+                        <p class="proj-four">JavaScript Web app with local storage intergration</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div  class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                   <img class="card-image" src="projects_photo/stores.png" alt="stores">
+                </div>
+
+                <div class="flip-card-back">
+                    <a class="linkToProject" href="https://store-open-slide.glitch.me/" target="_blank" alt="stores">
+                        <h4 class="proj-four">Store open countdown</h4>
+                        <p class="proj-four">JavaScript Web app</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div  class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                       <img class="card-image" src="projects_photo/stairs.png" alt="stairnoses">
+                    </div>
+
+                    <div class="flip-card-back">
+                        <a class="linkToProject" href="https://custum-stairnose-strap.glitch.me/" target="_blank" alt="stairnoses">
+                            <h4 class="proj-four">Stairnoses</h4>
+                            <p class="proj-four">Bootstrap/HTML website</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img class="card-image" src="projects_photo/photo.png" alt="photo">
+                </div>
+    
+                <div class="flip-card-back">
+                    <a class="linkToProject" href="https://photography-events-wed.glitch.me" target="_blank" alt="photography">
+                            <h4 class="proj-four">Photography</h4>
+                            <p class="proj-four">Bootstrap/HTML website</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+    </section>
+
+     <!-- My skill -->
+     <section id="skills">
+        <div class="container-logo">
+        <h3 class="my-skills">My hard Skills</h3>
+
+        <div id="header-skills">
+            <div class="icons">
+           <img class="skills-icon" src="skills_photo/JS.png" alt="js-icon">
+           <p class="text-skills">Node.js</p>
+       </div>
+   
+       <div class="icons">
+           <img class="skills-icon" src="skills_photo/react.png" alt="js-icon">
+           <p class="text-skills">React</p>
+       </div>
+   
+       <div class="icons">
+           <img class="skills-icon" src="skills_photo/redux-icon.png" alt="js-icon">
+           <p class="text-skills">Redux</p>
+       </div>
+   
+       <div class="icons">
+           <img class="skills-icon" src="skills_photo/JavaScript.png" alt="js-icon">
+           <p class="text-skills">JavaScript</p>
+       </div>
+   
+       <div class="icons">
+           <img class="skills-icon" src="skills_photo/css.png" alt="js-icon">
+           <p class="text-skills">HTML/CSS</p>
+       </div>
+   
+       <div class="icons">
+           <img class="skills-icon" src="skills_photo/bootstrap.png" alt="js-icon">
+           <p class="text-skills">Bootstrap</p>
+       </div>
+   
+       <div class="icons">
+           <img class="skills-icon" src="skills_photo/animation.png" alt="js-icon">
+           <p class="text-skills">Animation</p>
+       </div>
+   
+       <div class="icons">
+           <img class="skills-icon" src="skills_photo/api.png" alt="js-icon">
+           <p class="text-skills">API</p>
+       </div>
+   
+       <div class="icons">
+           <img class="skills-icon" src="skills_photo/github.png" alt="js-icon">
+           <p class="text-skills">GitHub</p>
+       </div>
+   
+       <div class="icons">
+           <img class="skills-icon" src="skills_photo/git.png" alt="js-icon">
+           <p class="text-skills">Git</p>
+       </div>
+   
+       <div class="icons">
+           <img class="skills-icon" src="skills_photo/figma.png" alt="js-icon">
+           <p class="text-skills">Figma</p>
+       </div>
+   
+       <div class="icons">
+           <img class="skills-icon" src="skills_photo/ui.png" alt="js-icon">
+           <p class="text-skills">UX/UI</p>
+       </div>
+   
+       <div class="icons">
+           <img class="skills-icon" src="skills_photo/pm.png" alt="js-icon">
+           <p class="text-skills">P.Manager</p>
+       </div>
+   
+       <div class="icons">
+           <img class="skills-icon" src="skills_photo/jira.png" alt="js-icon">
+           <p class="text-skills">Jira</p>
+       </div>
    </div>
+   
+       <div class="soft-skills">
+           <h3 class="my-skills">My soft Skills</h3>
+            <div id="header-skills">
+               <div>
+                   <p class="skills-soft gsapSK2"><img class="soft-image" src="skills_photo/circle.png" alt="circle" width="20px">Time management</p>
+                   <p class="skills-soft gsapSK2"><img class="soft-image" src="skills_photo/circle.png" alt="circle" width="20px">Critical thinking</p>
+                   <p class="skills-soft gsapSK2"><img class="soft-image" src="skills_photo/circle.png" alt="circle" width="20px">Problem solving</p>
+                   <p class="skills-soft gsapSK2"><img class="soft-image" src="skills_photo/circle.png" alt="circle" width="20px">Management skill</p>
+                   <p class="skills-soft gsapSK2"><img class="soft-image" src="skills_photo/circle.png" alt="circle" width="20px">Teamwork</p>
+                   <p class="skills-soft gsapSK2"><img class="soft-image" src="skills_photo/circle.png" alt="circle" width="20px">Accountability</p>
+               </div>
+   
+               <div>
+                   <p class="skills-soft more-right gsapSK2"><img class="soft-image" src="skills_photo/circle.png" alt="circle" width="20px">Organization </p>
+                   <p class="skills-soft gsapSK2"><img class="soft-image" src="skills_photo/circle.png" alt="circle" width="20px">Leadership</p>
+                   <p class="skills-soft gsapSK2"><img class="soft-image" src="skills_photo/circle.png" alt="circle" width="20px">Communication</p>
+                   <p class="skills-soft gsapSK2"><img class="soft-image" src="skills_photo/circle.png" alt="circle" width="20px">Negotiation skill</p>
+                   <p class="skills-soft gsapSK2"><img class="soft-image" src="skills_photo/circle.png" alt="circle" width="20px">Analytic skills </p>
+                   <p class="skills-soft gsapSK2"><img class="soft-image" src="skills_photo/circle.png" alt="circle" width="20px">Flexibility </p>
+               </div>
+   
+           </div>
+       </div>
+    </div>
+     </section>
 
-      <!--- SKILLS --->   
-      <section id="skills">
-      <div class="project">
-      <h4 class="heding-projects">MY SKILLS</h4>
-      </div>
+        <!-- My Certificates -->
+    <section id="certificates">
+        <div>
+        <h2 class="about">My Certificates</h2>
+            <div id="container-certificates">
+            
+               <button class="btn-back" id="back">
+                  <img class="slide back" src="photo/back.png" alt="back" width="35px">
+              </button>
+          
+              <img id="slide" clas="image-cert" src="certificates/React.png" alt="certificate">
+          
+              <button class="btn-next" id="next">
+                  <img class="slide next" src="photo/next.png" alt="next" width="30px">
+              </button>
+          </div>
+        </div>
+     </section>
 
-      <div class="list">
+    <!-- Send a message --> 
+    <section id="contact">
+        <div id="container-message">
+            <h6 class="message">Have questions? <br> Send me a message</h6>
+         <div class="fliped-question">
+            <img class="question_message" src="photo/question_message.png" alt="message" width="80px" height="70px">
+            <!-- <img class="question_message" src="photo/fliped-question.png" alt="message" width="80px" height="70px"> -->
+         </div>
+    </div>
 
-     <div>
-     <img class="button-one" src="https://cdn.kibrispdr.org/data/753/node-js-logo-34.jpg" height="90" width="88"> 
+    <div id="header-input">
+        <!-- modify this form HTML and place wherever you want your form -->
+         <form class="header-input" action="https://formspree.io/f/mjvnalkp" method="POST">
+
+        <div class="label-container">
+            <label class="input-par">Your name:</label>
+            <input class="input" type="text" name="name" placeholder="Your full name...">
+        </div>
+        <div class="label-container">
+            <label class="input-par">Your email: </label>
+            <input class="input" type="email" name="email" placeholder="Your email...">
+        </div>
+        <div class="label-container">
+            <label class="input-par">Your phone: </label>
+            <input class="input" type="phone" name="phone" placeholder="Your phone...">
+        </div>
+        <div class="label-container">
+            <label class="input-par two">Your message:</label>
+            <textarea class="input" name="message" placeholder="Your message"></textarea>
+        </div>
+        <div class="label-container">
+            <button class="btnMail button" id="btn" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+</div>
+</main>
+
+   <!--FOOTER-->
+   <footer>
+   <div class="container-footer logoGsapTwo">
+    <div class="footer-conteiner">
+        <div class="header-conteiner">
+            <img src="photo/name tag.png" alt="name tag" class="name-tag">
+            <img class="image-decor" src="photo/footer-decor.png" alt="decor" width="20px">
+            <p class="footer-par">Expert in Frontend development<br>Turning static designs into <br>functional web pages and not<br> only...
+                <br>
+                <br>
+                Designed and programmed by <br>
+                <span class="span">@rodika</span></p>
+        </div>
+   
+        <div class="headerContainer">
+        <div class="header-conteiner">
+            <h4 class="skills-soft gsapSK">Fallow me:</h4>
+            <img class="images-decor" src="photo/footer-decor.png" alt="decor" width="20px">
+
+            <div>
+                <a href="https://www.instagram.com/rodika_it/" target="_blank">
+                    <img class="social-icon" src="footer_photo/instagram.png" alt="circle">
+                </a>
+                <a href="https://www.linkedin.com/in/rodikaaryku/" target="_blank">
+                   <img class="social-icon" src="footer_photo/linkedin.png" alt="circle">
+               </a>
+               <a href="https://www.facebook.com/profile.php?id=61561144858564" target="_blank">
+                   <img class="social-icon" src="footer_photo/facebook.png" alt="circle">
+               </a>
+            </div>
+        </div>
+
+        <div class="header-conteiner">
+            <h4 class="skills-soft gsapSK">Contact me:</h4>
+            <img class="images-decor" src="photo/footer-decor.png" alt="decor" width="20px">
+            <div>
+            <a href="https://t.me/rodika_developer" target="_blank">
+                <img class="social-icon" src="footer_photo/telegram.png" alt="circle">
+            </a>
+            <a href="mailto:rodikaaryku13@gmail.com"target="_blank">
+                <img class="social-icon" src="footer_photo/image 25.png" alt="circle">
+            </a>
+            <a href="tel: +13604331716" target>
+                <img class="social-icon" src="footer_photo/phone.png" alt="circle"> 
+            </a> 
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="input-button">
+      <form action="https://formspree.io/f/mjvnalkp" method="POST">
+        <input class="input-subscribe" type="email" name="email" placeholder="Enter your email...">
+        <button class="submit" type="submit">Subscribe</button>
+    </form>
+    </div>
      <br>
-     <div class="name-work">
-     <h6 class="react">Node.js</h6>
-     </div>
-     </div>
+    <hr>
+    <p class="foot-par">
+        <img class="image-r" src="footer_photo/r.png" alt="decor" width="20px">2024 IT, All rights received</p>
+    </div>
+</footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 
-      <div>
-      <img class="button-one" src="https://cdn.glitch.global/71580391-18c0-4bfb-9834-19e154052412/atomic-energy.png?v=1653223427396" height="90" width="88"> 
-      <br>
-      <div class="name-work">
-      <h6 class="react">React/Redux</h6>
-      </div>
-      </div>
 
-      <div>
-      <img class="button-one" src="https://cdn.glitch.global/71580391-18c0-4bfb-9834-19e154052412/js.png?v=1653223431458" height="90" width="88">  
-      <br>
-      <div class="name-work">
-      <h6>JS</h6>
-      </div>
-      </div>
-
-      <div>
-      <img class="button-one" src="https://cdn.glitch.global/71580391-18c0-4bfb-9834-19e154052412/coding.png?v=1653223440505" height="90" width="88">  
-      <br>
-      <div class="name-work">
-      <h6>HTML/CSS</h6>
-      </div>
-      </div>
-
-      <div>
-        <img class="button-one" src="https://cdn.glitch.global/71580391-18c0-4bfb-9834-19e154052412/bootstrap.png?v=1653223427234" height="90" width="88">  
-        <br> 
-        <div class="name-work">
-        <h6> Bootstrap</h6>
-        </div>
-        </div>
-
-      <div>
-      <img class="button-one" src="https://cdn.glitch.global/71580391-18c0-4bfb-9834-19e154052412/animation.png?v=1653223427765" height="90" width="88">  
-      <br>    
-      <div class="name-work">
-      <h6>Animation</h6>
-      </div>
-      </div>
-
-      <div>
-      <img class="button-one" src="https://cdn.glitch.global/71580391-18c0-4bfb-9834-19e154052412/api.png?v=1653223428158" height="90" width="88"> 
-      <br> 
-      <div class="name-work">
-      <h6> API </h6>
-      </div>
-      </div>
-
-      <div>
-        <img class="button-one" src="https://cdn.glitch.global/2622d952-abcb-40cb-953c-c3c8c282861e/github-sign.png?v=1650330878741" height="90" width="88">
-        <br> 
-        <div class="name-work">
-        <h6> GitHub </h6>
-        </div>
-        </div>
-
-      <div>
-      <img class="button-one" src="https://cdn.glitch.global/71580391-18c0-4bfb-9834-19e154052412/figma.png?v=1653223438339" height="90" width="88"> 
-      <br>  
-      <div class="name-work">
-      <h6>Figma</h6>
-      </div>
-      </div>
-
-   </div>
-      </div>
-      </div>
-      <!--- CERTIFICATES --->
-      <section id="certificate">
-         <div id="skillsMy">
-            <div class="certificates">
-               <h4 class="main">CERTIFICATES</h4>
-            </div>
-
-         <div id="container">
-            <button id="back" class="btn-back">
-               <svg xmlns="http://www.w3.org/2000/svg" width="36" height="46" fill="currentColor" class="bi bi-skip-backward-circle" viewBox="0 0 16 16">
-                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                  <path d="M11.729 5.055a.5.5 0 0 0-.52.038L8.5 7.028V5.5a.5.5 0 0 0-.79-.407L5 7.028V5.5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 1 0V8.972l2.71 1.935a.5.5 0 0 0 .79-.407V8.972l2.71 1.935A.5.5 0 0 0 12 10.5v-5a.5.5 0 0 0-.271-.445z"/>
-               </svg>
-            </button>
-            <img id="slide"src="react-redux.png" alt="WA" width="900">
-            <button id="next" class="btn-next">
-               <svg xmlns="http://www.w3.org/2000/svg" width="36" height="46" fill="currentColor" class="bi bi-skip-forward-circle" viewBox="0 0 16 16">
-                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                  <path d="M4.271 5.055a.5.5 0 0 1 .52.038L7.5 7.028V5.5a.5.5 0 0 1 .79-.407L11 7.028V5.5a.5.5 0 0 1 1 0v5a.5.5 0 0 1-1 0V8.972l-2.71 1.935a.5.5 0 0 1-.79-.407V8.972l-2.71 1.935A.5.5 0 0 1 4 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-               </svg>
-            </button>
-         </div>
-      </div>
-      </section>
-      <!--- FOOTER --->
-      <section id="contact">
-         <div class="project">
-            <h4 class="heding-projects">Contact Me</h4>
-         </div>
-         <footer id="footer">
-
-            <div class="mail">
-           <a href="mailto:rodikaaryku13@gmail.com"target="_blank">
-                  <svg class="color" xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                     <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                  </svg>
-               </a>
-               <a href="https://www.linkedin.com/in/rodikaaryku/"target="_blank">
-                  <svg class="color" xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                     <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                  </svg>
-               </a>
-               <a href="https://web-app-form.netlify.app/"target="_blank">
-                <svg class="colorSecond" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 30 30">
-                    <path d="M 7 4 C 5.895 4 5 4.895 5 6 L 5 20 C 5 21.105 5.895 22 7 22 L 7 10 C 7 7.794 8.794 6 11 6 L 21 6 C 21 4.895 20.105 4 19 4 L 7 4 z M 11 8 C 9.895 8 9 8.895 9 10 L 9 24 C 9 25.105 9.895 26 11 26 L 23 26 C 24.105 26 25 25.105 25 24 L 25 10 C 25 8.895 24.105 8 23 8 L 11 8 z M 13 12 L 21 12 C 21.552 12 22 12.448 22 13 C 22 13.552 21.552 14 21 14 L 13 14 C 12.448 14 12 13.552 12 13 C 12 12.448 12.448 12 13 12 z M 13 16 L 21 16 C 21.552 16 22 16.448 22 17 C 22 17.552 21.552 18 21 18 L 13 18 C 12.448 18 12 17.552 12 17 C 12 16.448 12.448 16 13 16 z M 13 20 L 21 20 C 21.552 20 22 20.448 22 21 C 22 21.552 21.552 22 21 22 L 13 22 C 12.448 22 12 21.552 12 21 C 12 20.448 12.448 20 13 20 z"></path>
-                </svg>
-              </a> 
-            </div>
-            <hr>
-         </footer>
-      </section>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js "></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
-      <script src="script.js"></script>
-   </body>
+    <script src="index.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
 </html>
